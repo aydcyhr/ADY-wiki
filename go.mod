@@ -13,7 +13,7 @@ require (
 	github.com/howeyc/fsnotify v0.9.0
 	github.com/kardianos/service v1.1.0
 	github.com/lib/pq v1.7.0 // indirect
-	github.com/aydcyhr/gocaptcha v0.1.1
+	github.com/aydcyhr/gocaptcha v0.1.2
 	github.com/mattn/go-sqlite3 v1.9.0
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
