@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta name="author" content="Minho" />
-    <meta name="site" content="https://github.com/aydcyhr" />
+    <meta name="site" content="https://www.iminho.me" />
     <meta name="keywords" content="{{.Model.BlogTitle}}">
     <meta name="description" content="{{.Model.BlogTitle}}-{{.Description}}">
-    <title>{{.Model.BlogTitle}} - Powered by ADY-wiki</title>
+    <title>{{.Model.BlogTitle}} - Powered by MinDoc</title>
 
     <!-- Bootstrap -->
     <link href="{{cdncss "/static/bootstrap/css/bootstrap.min.css"}}" rel="stylesheet">

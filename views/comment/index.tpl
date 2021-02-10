@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>用户中心 - Powered by ADY-wiki</title>
+    <title>用户中心 - Powered by MinDoc</title>
 
     <!-- Bootstrap -->
     <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -69,7 +69,7 @@
                     <div class="form-right">
                         <label>
                             <a href="javascript:;" data-toggle="modal" data-target="#upload-logo-panel">
-                                <img src="/uploads/user/201612/58649aefa944e_58649aef.JPG" onerror="this.src='https://wiki.aydcyhr.com/static/images/middle.gif'" class="img-circle" alt="头像" style="max-width: 120px;max-height: 120px;" id="headimgurl">
+                                <img src="/uploads/user/201612/58649aefa944e_58649aef.JPG" onerror="this.src='https://wiki.iminho.me/static/images/middle.gif'" class="img-circle" alt="头像" style="max-width: 120px;max-height: 120px;" id="headimgurl">
                             </a>
                         </label>
                     </div>

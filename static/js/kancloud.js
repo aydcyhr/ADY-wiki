@@ -1,7 +1,7 @@
 var events = function () {
     var articleOpen = function (event, $param) {
         //当打开文档时，将文档ID加入到本地缓存。
-        window.sessionStorage && window.sessionStorage.setItem("ADY-wiki::LastLoadDocument:" + window.book.identify, $param.$id);
+        window.sessionStorage && window.sessionStorage.setItem("MinDoc::LastLoadDocument:" + window.book.identify, $param.$id);
         var prevState = window.history.state || {};
         if ('pushState' in history) {
 
@@ -25,7 +25,7 @@ var events = function () {
 
     return {
         data: function ($key, $value) {
-            $key = "ADY-wiki::Document:" + $key;
+            $key = "MinDoc::Document:" + $key;
             if (typeof $value === "undefined") {
                 return $("body").data($key);
             } else {
@@ -199,12 +199,7 @@ $(function () {
             "multiple" : false,
             'animation' : 0
         }
-    }).on('select_node.jstree', function (node, selected) {
-        //如果是空目录则直接出发展开下一级功能
-        if (selected.node.a_attr && selected.node.a_attr.disabled) {
-            selected.instance.toggle_node(selected.node);
-            return false
-        }
+    }).on('select_node.jstree', function (node, selected, event) {
         $(".m-manual").removeClass('manual-mobile-show-left');
         loadDocument(selected.node.a_attr.href, selected.node.id,selected.node.a_attr['data-version']);
     });
@@ -284,4 +279,13 @@ $(function () {
             console.log($param);
         }
     };
+    try {
+        var $node = window.jsTree.jstree().get_selected();
+        if ($node instanceof Array && $node.length) {
+            $node = window.jsTree.jstree().get_node({ id: $node[0] });
+            events.trigger('article.open', { $url: $node.a_attr.href, $id: $node.id });
+        }
+    } catch (e) {
+        console.log(e);
+    }
 });

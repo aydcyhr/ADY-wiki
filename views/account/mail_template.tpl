@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>找回密码 - Powered by ADY-wiki</title>
+    <title>找回密码 - Powered by MinDoc</title>
     <style type="text/css">
         .ua-macos::-webkit-scrollbar{ display: none; }
         html,body{background-color: transparent;margin:0;padding: 0;}

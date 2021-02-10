@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>标签列表 - Powered by ADY-wiki</title>
-    <meta name="keywords" content="ADY-wiki,文档在线管理系统">
+    <title>标签列表 - Powered by MinDoc</title>
+    <meta name="keywords" content="MinDoc,文档在线管理系统,WIKI,wiki,wiki在线,文档在线管理,接口文档在线管理,接口文档管理">
     <meta name="description" content="MinDoc文档在线管理系统 {{.site_description}}">
     <meta name="author" content="Minho" />
-    <meta name="site" content="https://github.com/aydcyhr" />
+    <meta name="site" content="https://www.iminho.me" />
     <!-- Bootstrap -->
     <link href="{{cdncss "/static/bootstrap/css/bootstrap.min.css"}}" rel="stylesheet">
     <link href="{{cdncss "/static/font-awesome/css/font-awesome.min.css"}}" rel="stylesheet">

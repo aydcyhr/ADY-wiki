@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>编辑文档 - Powered by ADY-wiki</title>
+    <title>编辑文档 - Powered by MinDoc</title>
 
     <script type="text/javascript">
         window.editor = null;

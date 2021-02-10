@@ -2,15 +2,15 @@
 <html lang="zh-CN">
 <head>
 
-    <title>{{.Title}} - Powered by ADY-wiki</title>
+    <title>{{.Title}} - Powered by MinDoc</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta name="author" content="Minho" />
-    <meta name="site" content="https://github.com/aydcyhr" />
-    <meta name="keywords" content="ADY-wiki,文档在线管理系统,{{.Model.BookName}},{{.Title}}">
+    <meta name="site" content="https://www.iminho.me" />
+    <meta name="keywords" content="MinDoc,文档在线管理系统,WIKI,wiki,wiki在线,文档在线管理,接口文档在线管理,接口文档管理,{{.Model.BookName}},{{.Title}}">
     <meta name="description" content="{{.Title}}-{{if .Description}}{{.Description}}{{else}}{{.Model.Description}}{{end}}">
 
     <!-- Bootstrap -->
@@ -128,7 +128,7 @@
             </div>
             <div class="m-copyright">
                 <p>
-                    本文档使用 <a href="https://github.com/aydcyhr" target="_blank">ADY-wiki</a> 发布
+                    本文档使用 <a href="https://www.iminho.me" target="_blank">MinDoc</a> 发布
                 </p>
             </div>
         </div>

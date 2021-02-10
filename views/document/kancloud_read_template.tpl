@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>编辑文档 - Powered by ADY-wiki</title>
+    <title>编辑文档 - Powered by MinDoc</title>
 
     <!-- Bootstrap -->
     <link href="{{cdncss "/static/bootstrap/css/bootstrap.min.css"}}" rel="stylesheet">
@@ -38,8 +38,8 @@
                     <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="dLabel">
                         <li><a href="javascript:" data-toggle="modal" data-target="#shareProject">项目分享</a> </li>
                         <li role="presentation" class="divider"></li>
-                        <li><a href="https://wiki.aydcyhr.com/export/1" target="_blank">项目导出</a> </li>
-                        <li><a href="https://wiki.aydcyhr.com" title="返回首页">返回首页</a> </li>
+                        <li><a href="https://wiki.iminho.me/export/1" target="_blank">项目导出</a> </li>
+                        <li><a href="https://wiki.iminho.me" title="返回首页">返回首页</a> </li>
                     </ul>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                 <div class="tab-wrap">
                     <div class="tab-item manual-catalog">
                         <div class="catalog-list read-book-preview" id="sidebar">
-                            <ul><li id="1" class="jstree-open"><a href="https://wiki.aydcyhr.com/docs/show/1" title="项目简介" class="jstree-clicked">项目简介</a></li><li id="8"><a href="https://wiki.aydcyhr.com/docs/show/8" title="使用手册">使用手册</a><ul><li id="135"><a href="https://wiki.aydcyhr.com/docs/show/135" title="SmartWiki依赖扩展">SmartWiki依赖扩展</a></li><li id="9"><a href="https://wiki.aydcyhr.com/docs/show/9" title="SmartWiki安装与部署">SmartWiki安装与部署</a></li><li id="10"><a href="https://wiki.aydcyhr.com/docs/show/10" title="密码找回与邮件配置">密码找回与邮件配置</a></li><li id="21"><a href="https://wiki.aydcyhr.com/docs/show/21" title="Artisan命令安装SmartWiki">Artisan命令安装SmartWiki</a></li><li id="22"><a href="https://wiki.aydcyhr.com/docs/show/22" title="在Docker中使用SmartWiki">在Docker中使用SmartWiki</a></li><li id="105"><a href="https://wiki.aydcyhr.com/docs/show/105" title="图片和附件配置">图片和附件配置</a></li><li id="133"><a href="https://wiki.aydcyhr.com/docs/show/133" title="查看SmartWiki版本">查看SmartWiki版本</a></li><li id="134"><a href="https://wiki.aydcyhr.com/docs/show/134" title="使用phpStudy安装SmartWiki">使用phpStudy安装SmartWiki</a></li><li id="138"><a href="https://wiki.aydcyhr.com/docs/show/138" title="接口管理和测试工具">接口管理和测试工具</a></li></ul></li><li id="90"><a href="https://wiki.aydcyhr.com/docs/show/90" title="PHP环境搭建">PHP环境搭建</a><ul><li id="18"><a href="https://wiki.aydcyhr.com/docs/show/18" title="Linux命令行下Nginx+PHP-FPM安装与配置">Linux命令行下Nginx+PHP-FPM安装与配置</a></li><li id="17"><a href="https://wiki.aydcyhr.com/docs/show/17" title="Linux命令行下Apache+PHP安装与配置">Linux命令行下Apache+PHP安装与配置</a></li><li id="91"><a href="https://wiki.aydcyhr.com/docs/show/91" title="Linux下使用XAMPP搭建PHP环境">Linux下使用XAMPP搭建PHP环境</a></li><li id="92"><a href="https://wiki.aydcyhr.com/docs/show/92" title="Windows下使用phpStudy搭建php环境">Windows下使用phpStudy搭建php环境</a></li></ul></li><li id="4"><a href="https://wiki.aydcyhr.com/docs/show/4" title="Composer安装">Composer安装</a></li><li id="5"><a href="https://wiki.aydcyhr.com/docs/show/5" title="更新日志">更新日志</a></li><li id="6"><a href="https://wiki.aydcyhr.com/docs/show/6" title="常见问题">常见问题</a></li></ul>
+                            <ul><li id="1" class="jstree-open"><a href="https://wiki.iminho.me/docs/show/1" title="项目简介" class="jstree-clicked">项目简介</a></li><li id="8"><a href="https://wiki.iminho.me/docs/show/8" title="使用手册">使用手册</a><ul><li id="135"><a href="https://wiki.iminho.me/docs/show/135" title="SmartWiki依赖扩展">SmartWiki依赖扩展</a></li><li id="9"><a href="https://wiki.iminho.me/docs/show/9" title="SmartWiki安装与部署">SmartWiki安装与部署</a></li><li id="10"><a href="https://wiki.iminho.me/docs/show/10" title="密码找回与邮件配置">密码找回与邮件配置</a></li><li id="21"><a href="https://wiki.iminho.me/docs/show/21" title="Artisan命令安装SmartWiki">Artisan命令安装SmartWiki</a></li><li id="22"><a href="https://wiki.iminho.me/docs/show/22" title="在Docker中使用SmartWiki">在Docker中使用SmartWiki</a></li><li id="105"><a href="https://wiki.iminho.me/docs/show/105" title="图片和附件配置">图片和附件配置</a></li><li id="133"><a href="https://wiki.iminho.me/docs/show/133" title="查看SmartWiki版本">查看SmartWiki版本</a></li><li id="134"><a href="https://wiki.iminho.me/docs/show/134" title="使用phpStudy安装SmartWiki">使用phpStudy安装SmartWiki</a></li><li id="138"><a href="https://wiki.iminho.me/docs/show/138" title="接口管理和测试工具">接口管理和测试工具</a></li></ul></li><li id="90"><a href="https://wiki.iminho.me/docs/show/90" title="PHP环境搭建">PHP环境搭建</a><ul><li id="18"><a href="https://wiki.iminho.me/docs/show/18" title="Linux命令行下Nginx+PHP-FPM安装与配置">Linux命令行下Nginx+PHP-FPM安装与配置</a></li><li id="17"><a href="https://wiki.iminho.me/docs/show/17" title="Linux命令行下Apache+PHP安装与配置">Linux命令行下Apache+PHP安装与配置</a></li><li id="91"><a href="https://wiki.iminho.me/docs/show/91" title="Linux下使用XAMPP搭建PHP环境">Linux下使用XAMPP搭建PHP环境</a></li><li id="92"><a href="https://wiki.iminho.me/docs/show/92" title="Windows下使用phpStudy搭建php环境">Windows下使用phpStudy搭建php环境</a></li></ul></li><li id="4"><a href="https://wiki.iminho.me/docs/show/4" title="Composer安装">Composer安装</a></li><li id="5"><a href="https://wiki.iminho.me/docs/show/5" title="更新日志">更新日志</a></li><li id="6"><a href="https://wiki.iminho.me/docs/show/6" title="常见问题">常见问题</a></li></ul>
                         </div>
 
                     </div>
@@ -62,7 +62,7 @@
             </div>
             <div class="m-copyright">
                 <p>
-                    本文档使用 <a href="https://github.com/aydcyhr" target="_blank">ADY-wiki</a> 发布
+                    本文档使用 <a href="https://www.iminho.me" target="_blank">MinDoc</a> 发布
                 </p>
             </div>
         </div>
@@ -90,21 +90,21 @@
                         <p>SmartWiki是一款针对IT团队开发的简单好用的文档管理系统。
                             可以用来储存日常接口文档，数据库字典，手册说明等文档。内置项目管理，用户管理，权限管理等功能，能够满足大部分中小团队的文档管理需求。</p>
                         <h2 id="h2-u4f7fu7528"><a name="使用" class="reference-link"></a><span class="header-link octicon octicon-link"></span>使用</h2>
-                        <pre><code>git clone https://github.com/aydcyhr/SmartWiki.git
+                        <pre><code>git clone https://github.com/lifei6671/SmartWiki.git
 </code></pre>
                         <p>配置laravel的运行环境,然后打开首页会自动跳转到安装页面。</p>
                         <p>因为laravel使用了composer，所以需要服务器安装composer进行包的还原。</p>
                         <h2 id="h2-u90e8u5206u622au56fe"><a name="部分截图" class="reference-link"></a><span class="header-link octicon octicon-link"></span>部分截图</h2>
                         <p><strong>个人资料</strong></p>
-                        <p><img src="https://raw.githubusercontent.com/aydcyhr/SmartWiki/master/storage/app/images/20161124082553.png" alt="个人资料" /></p>
+                        <p><img src="https://raw.githubusercontent.com/lifei6671/SmartWiki/master/storage/app/images/20161124082553.png" alt="个人资料" /></p>
                         <p><strong>我的项目</strong></p>
-                        <p><img src="https://raw.githubusercontent.com/aydcyhr/SmartWiki/master/storage/app/images/20161124082647.png" alt="我的项目" /></p>
+                        <p><img src="https://raw.githubusercontent.com/lifei6671/SmartWiki/master/storage/app/images/20161124082647.png" alt="我的项目" /></p>
                         <p><strong>项目参与用户</strong></p>
-                        <p><img src="https://raw.githubusercontent.com/aydcyhr/SmartWiki/master/storage/app/images/20161124082703.png" alt="项目参与用户" /></p>
+                        <p><img src="https://raw.githubusercontent.com/lifei6671/SmartWiki/master/storage/app/images/20161124082703.png" alt="项目参与用户" /></p>
                         <p><strong>文档编辑</strong></p>
-                        <p><img src="https://raw.githubusercontent.com/aydcyhr/SmartWiki/master/storage/app/images/20161124082810.png" alt="文档编辑" /></p>
+                        <p><img src="https://raw.githubusercontent.com/lifei6671/SmartWiki/master/storage/app/images/20161124082810.png" alt="文档编辑" /></p>
                         <p><strong>文档模板</strong></p>
-                        <p><img src="https://raw.githubusercontent.com/aydcyhr/SmartWiki/master/storage/app/images/20161124082844.png" alt="文档模板" /></p>
+                        <p><img src="https://raw.githubusercontent.com/lifei6671/SmartWiki/master/storage/app/images/20161124082844.png" alt="文档模板" /></p>
                         <h2 id="h2-u4f7fu7528u7684u6280u672f"><a name="使用的技术" class="reference-link"></a><span class="header-link octicon octicon-link"></span>使用的技术</h2>
                         <ul>
                             <li>laravel 5.2</li>
@@ -135,7 +135,7 @@
                             <li>文档搜索</li>
                         </ol>
                         <h2 id="h2-u4f5cu8005"><a name="作者" class="reference-link"></a><span class="header-link octicon octicon-link"></span>作者</h2>
-                        <p>一个纯粹的PHPer。<a href="http://www.aydcyhr.com">个人网站</a></p>
+                        <p>一个纯粹的PHPer。<a href="http://www.iminho.me">个人网站</a></p>
 
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                 <div class="form-group">
                     <label for="password" class="col-sm-2 control-label">项目地址</label>
                     <div class="col-sm-10">
-                        <input type="text" value="https://wiki.aydcyhr.com/show/1" class="form-control" onmouseover="this.select()" id="projectUrl" title="项目地址">
+                        <input type="text" value="https://wiki.iminho.me/show/1" class="form-control" onmouseover="this.select()" id="projectUrl" title="项目地址">
                     </div>
                     <div class="clearfix"></div>
                 </div>
